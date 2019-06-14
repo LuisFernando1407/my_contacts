@@ -61,10 +61,6 @@ function ajaxGetInfoUser(object){
     });
 }
 
-function setPageEditProduct(id) {
-    window.location.href = window.location.pathname +'/' +  id + '/edit';
-}
-
 function setPageEditContact(id) {
     window.location.href = window.location.pathname +'/' +  id + '/edit';
 }
