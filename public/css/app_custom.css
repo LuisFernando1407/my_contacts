@@ -1,0 +1,60 @@
+:root {
+    --color-success: #59b19c;
+    --color-wait: #f2c140;
+    --color-danger: #e9686d;
+    --color-exec: #347ab6;
+}
+
+.divider-vertical-success {
+    border-left: 3.5px solid var(--color-success);
+    right:249px;
+    top:10px;
+}
+
+.divider-vertical-wait {
+    border-left: 3.5px solid var(--color-wait);
+    right:249px;
+    top:10px;
+}
+
+.divider-vertical-danger {
+    border-left: 3.5px solid var(--color-danger);
+    right:249px;
+    top:10px;
+}
+
+.card-gray{
+    background-color: #bfc0c2 !important;
+}
+
+.card-white{
+    background-color: white !important;
+}
+
+.card-success {
+    background-color: var(--color-success) !important;
+}
+
+.card-wait {
+    background-color: var(--color-wait) !important;
+}
+
+.card-danger {
+    background-color: var(--color-danger) !important;
+}
+
+.card-exec {
+    background-color: var(--color-exec) !important;
+}
+
+.text-white{
+    color: white !important;
+}
+
+.text-black{
+    color: #444 !important;
+}
+
+.container{
+    width: 220px !important;
+}
